@@ -14,9 +14,11 @@
 <body>
 
    <header>
+      <a href="#">
       <img class="logo" src="img/logo.png" alt="logo">
+      </a>
       <nav class="navbar" >
-         <a class="nav-a" href="#home"    style="--i: 1;" >home</a>
+         <a class="nav-a" href="#"    style="--i: 1;" >home</a>
          <a class="nav-b" href="#product" style="--i:2 ;" >product</a>
          <a class="nav-c" href="#devs"  style="--i:3 ;"  >our-team</a>
          <a class="nav-d" href="#contact" style="--i:4 ;"   >contact</a>
@@ -27,16 +29,15 @@
    <!-------------------------section Home---------------------------------------------->
    <section class="home" id="home">
       <div class="home_content">
-         <h1>we design <br> a better future</h1>
-         <p>NoteX Studios - designs the best looking and responsive<br>website that is
-          customisable according to your needs using <br> HTML , CSS & JS</p>
+         <h1>we <span>design</span> <br> <span> a better</span> future</h1>
+         <p>NoteX Studios - designs the best looking and responsive<br id="br">website that is
+          customisable according to your needs using <br> HTML , CSS , JS , Django , React , PHP and more</p>
 
-         <div class="btn">Book Now</div>
+         <div class="btn"> <a class="call_button" href="tel:+9779765948848">Call Now</a></div>
          <div class="link">
-            <a href="#" style="--i:5 ;"><i class="fa-brands fa-github"></i></a>
-            <a href="#" style="--i:6 ;"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" style="--i: 7;"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" style="--i: 8;"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/notexstudios" style="--i:5 ;"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61560896195415&mibextid=ZbWKwL" style="--i: 7;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/notexstudios?igsh=OHg2OTg2anFydXBv" style="--i: 8;"><i class="fa-brands fa-instagram"></i></a>
          </div>
       </div>
       <img src="next/homeproduct.png" alt="">
@@ -56,7 +57,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                 </div>  
-                <p>$799 <span>$899</span></p>
+                <p>$399 <span>$449</span></p>
             </div>
             <div class="tittel">
                <h5>Ecommerce Site</h5>
@@ -73,7 +74,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-regular fa-star"></i>
                 </div>  
-                <p>$599 <span>$649</span></p>
+                <p>$199 <span>$249</span></p>
             </div>
             <div class="tittel">
                <h5>Educational Site</h5>
@@ -90,7 +91,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star-half-stroke"></i>
                 </div>  
-                <p>$699 <span>$779</span></p>
+                <p>$239 <span>$299</span></p>
             </div>
             <div class="tittel">
                <h5>Restaurants</h5>
@@ -107,7 +108,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-regular fa-star"></i>
                 </div>  
-                <p>$399 <span>$449</span></p>
+                <p>$149 <span>$199</span></p>
             </div>
             <div class="tittel">
                <h5>Portfolio</h5>
@@ -124,7 +125,7 @@
                   <i class="fa-regular fa-star"></i>
                   <i class="fa-regular fa-star"></i>
                 </div>  
-                <p>$1099 <span>$1199</span></p>
+                <p>$699 <span>$749</span></p>
             </div>
             <div class="tittel">
                <h5>Government Page</h5>
@@ -141,7 +142,7 @@
                   <i class="fa-solid fa-star-half-stroke"></i>
                   <i class="fa-regular fa-star"></i>
                 </div>  
-                <p>$999 <span>$1099</span></p>
+                <p>$499 <span>$599</span></p>
             </div>
             <div class="tittel">
                <h5>NGO Page</h5>
@@ -197,6 +198,19 @@
                <h4>Suyog Adhikari</h4>
             </div>
          </div>
+         <div class="devs_box">
+            <img src="devs/bikal.jpg" alt="dev">
+            <div class="devs_info">
+               <p>Hello, I am Bikal Co-founder and Developer of NoteX Studios</p>
+               <!-- <div class="icon-star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+               </div> -->
+               <h4>Bikal Lamichhane</h4>
+            </div>
+         </div>
          
         
          </div>
@@ -209,12 +223,12 @@
      <!---------------------------------------------section contact us---------------------------------------------->
        <section class="contact" id="contact">
          <h1 class="heading">contact <span>us</span></h1>
-         <form action="https://api.web3forms.com/submit" method="post" onsubmit="form()" >
-               <input type="hidden" name="access_key" value="27bac6ce-265f-439f-aa75-6bc4b7aff7ed">
+         <form action="https://api.web3forms.com/submit" method="post">
+               <input type="hidden" name="access_key" value="1b669392-3079-4fb9-8acc-f97b87e1f823">
                <input type="text" name="name" class="name" placeholder="full name">
                <input type="email" name="email" class="email" placeholder="email">
             
-         <textarea name="message" class="message" cols="30" rows="10" placeholder="your message"></textarea>
+         <textarea name="message" class="message" cols="20" rows="6" placeholder="your message"></textarea>
           <div class="btn">
             <button class="sub_message" type="submit" >Submit</button>
           </div>
@@ -232,7 +246,7 @@
       navbar.classList.toggle("active");
    }
 
-   let anchora = document.querySelector('.nav-a');
+     let anchora = document.querySelector('.nav-a');
    anchora.onclick= ()=>{
     navbar.classList.toggle("active");
    }
@@ -252,12 +266,7 @@
     navbar.classList.toggle("active");
    }
 
-   
-   
 
-   
-
-   
   
  </script>
 
